@@ -1,0 +1,6 @@
+Metric,Value
+R-squared,0.6707176958131416
+MSE,17.154251405597677
+Components,3
+Variables,3
+Equation,2.1475 + 0.132557 * WS*RH + 0.003609 * Tf*SR - 0.003078 * Ts*SR

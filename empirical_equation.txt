@@ -1,0 +1,16 @@
+PLS EMPIRICAL EQUATION FOR CH4 PREDICTION
+==================================================
+
+EQUATION:
+2.1475 + 0.132557 * WS*RH + 0.003609 * Tf*SR - 0.003078 * Ts*SR
+
+PERFORMANCE METRICS:
+R² = 0.670718
+MSE = 17.154251
+Number of PLS components = 3
+Number of variables used = 3
+
+SELECTED VARIABLES:
+1. WS*RH - VIP Score: 1.748149
+2. Tf*SR - VIP Score: 1.316879
+3. Ts*SR - VIP Score: 1.308462

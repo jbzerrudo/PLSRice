@@ -1,0 +1,50 @@
+MODEL COMPARISON SUMMARY
+==================================================
+
+CURRENT MODEL (5 variables):
+R² = 0.7065
+MSE = 15.4803
+Variables: WS*RH, Tf*SR, Ts*SR, Ta*SR, SR
+
+BEST MODEL BY R² (20 variables):
+R² = 0.8121 (improvement: 0.1056)
+MSE = 9.7862
+Components: 9
+Variables:
+1. WS*RH (Rank: 1, VIP: 1.7481)
+2. Tf*SR (Rank: 2, VIP: 1.3169)
+3. Ts*SR (Rank: 3, VIP: 1.3085)
+4. Ta*SR (Rank: 4, VIP: 1.2991)
+5. SR (Rank: 5, VIP: 1.2756)
+6. SR*Pr (Rank: 6, VIP: 1.2749)
+7. SR*RH (Rank: 7, VIP: 1.2619)
+8. Ta (Rank: 8, VIP: 1.2589)
+9. Ta*Pr (Rank: 9, VIP: 1.2578)
+10. del_t*SR (Rank: 10, VIP: 1.2374)
+11. SR*WD (Rank: 11, VIP: 1.2111)
+12. del_t*WS (Rank: 12, VIP: 1.2100)
+13. Ta*Ts (Rank: 13, VIP: 1.2095)
+14. Ts (Rank: 14, VIP: 1.0376)
+15. Ts*Pr (Rank: 15, VIP: 1.0325)
+16. WD*RH (Rank: 16, VIP: 0.9926)
+17. Ta*WD (Rank: 17, VIP: 0.9897)
+18. Ts*WD (Rank: 18, VIP: 0.9880)
+19. Tf*WD (Rank: 19, VIP: 0.9870)
+20. Pr*WD (Rank: 20, VIP: 0.9820)
+
+ADDITIONAL VARIABLES COMPARED TO CURRENT MODEL:
++ SR*Pr (Rank: 6, VIP: 1.2749)
++ SR*RH (Rank: 7, VIP: 1.2619)
++ Ta (Rank: 8, VIP: 1.2589)
++ Ta*Pr (Rank: 9, VIP: 1.2578)
++ del_t*SR (Rank: 10, VIP: 1.2374)
++ SR*WD (Rank: 11, VIP: 1.2111)
++ del_t*WS (Rank: 12, VIP: 1.2100)
++ Ta*Ts (Rank: 13, VIP: 1.2095)
++ Ts (Rank: 14, VIP: 1.0376)
++ Ts*Pr (Rank: 15, VIP: 1.0325)
++ WD*RH (Rank: 16, VIP: 0.9926)
++ Ta*WD (Rank: 17, VIP: 0.9897)
++ Ts*WD (Rank: 18, VIP: 0.9880)
++ Tf*WD (Rank: 19, VIP: 0.9870)
++ Pr*WD (Rank: 20, VIP: 0.9820)

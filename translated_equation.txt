@@ -1,0 +1,23 @@
+RICE RESEARCH TERMINOLOGY EQUATION
+==================================================
+
+Technical: 2.1475 + 0.132557 * WS*RH + 0.003609 * Tf*SR - 0.003078 * Ts*SR
+
+Rice Research: 2.1475 + 0.132557 * Wind speed*Relative humidity + 0.003609 * Floodwater temperature*Solar radiation - 0.003078 * Soil temperature*Solar radiation
+
+Variable Mappings:
+  Δt·h = Flooding duration
+  h·Ta = Water depth × Air temperature
+  h·Tf = Water depth × Floodwater temperature
+  h·Ts = Water depth × Soil temperature
+  Ta·Tf = Air × Floodwater temperature
+  Ta·Ts = Air × Soil temperature
+  SR·WS = Solar radiation × Wind speed
+  WS = Wind speed
+  SR = Solar radiation
+  Ta = Air temperature
+  Tf = Floodwater temperature
+  Ts = Soil temperature
+  h = Water depth
+  Pa = Atmospheric pressure
+  RH = Relative humidity

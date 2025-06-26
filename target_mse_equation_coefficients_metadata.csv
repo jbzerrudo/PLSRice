@@ -1,0 +1,6 @@
+Metric,Value
+R-squared,0.8391882926537618
+MSE,8.37762740877608
+Components,8
+Variables,20
+Equation,0.234898 + 0.213438 * WS*RH + 4.03e-04 * Tf*SR + 4.02e-04 * Ts*SR + 4.67e-04 * Ta*SR + 9.10e-04 * SR - 4.02e-04 * SR*RH - 0.084974 * Ta - 0.002263 * Ta*Pr + 2.53e-04 * del_t*WS + 0.017636 * Ta*Ts + 0.160782 * Ts - 0.001744 * Ts*Pr + 2.59e-04 * WD*RH - 5.68e-04 * Ta*WD - 4.66e-04 * Ts*WD - 6.70e-04 * Tf*WD
